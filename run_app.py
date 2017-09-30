@@ -13,5 +13,5 @@ if __name__ == "__main__":
 	sd = record_data.SensorDatabase(opts.pin, sensor, opts.t, opts.p)
 	sd.daemon = True
 	sd.start()
-	print "serwer running"
+	print("server running on localhost:8080")
 	server.app.run(host=opts.host, port=opts.port)
