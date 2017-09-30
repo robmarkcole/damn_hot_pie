@@ -1,4 +1,7 @@
 # Raspberry Pi DHT sensor website app
+
+Python3 fork.
+
 This app lets you to view your DHT readouts online in a form of interactive plot. 
 
 Sample:
