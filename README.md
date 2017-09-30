@@ -1,6 +1,6 @@
 # Raspberry Pi DHT sensor website app
 
-Python3 fork. Run with > python3 run_app.py -s 22
+Python3 fork. For DHT-22 run with > python3 run_app.py -s 22
 
 This app lets you to view your DHT readouts online in a form of interactive plot.
 
@@ -14,7 +14,7 @@ Sample:
 - Raspberry PI
 - DHT11 sensor (DHT22 and DHT2303 are also supported, [also see wiring](http://docs.gadgetkeeper.com/pages/viewpage.action?pageId=7700673))
 - interwebz connection
-- Python 2.7
+- Python 3
 - Flask
 - SQLAlchemy
 - Adafruit DHT driver
@@ -23,7 +23,7 @@ Sample:
 ##Dependencies
 For web server and database dependencies requirements run:
 ```
-sudo pip install -r requirements.txt
+sudo pip3 install -r requirements.txt
 ```
 
 You will also need Adafruit Python DHT driver.
